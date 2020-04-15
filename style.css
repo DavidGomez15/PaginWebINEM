@@ -790,11 +790,11 @@ img {
   background: linear-gradient(to right, #61ba6d, #83c331);
   padding: 70px 0; }
   .call-to-action-area .container{
-    padding-left: 120px;
+    padding-left: 180px;
     
   }
   .call-to-action-area .container .img1 ,.img2 ,.img3 , .img4, .img5, .img6{
-    padding-right: 50px;
+    padding-right: 100px;
   }
   .call-to-action-area .cta-content h3 {
     font-size: 30px;
@@ -1261,4 +1261,8 @@ img {
 .prom{
   padding-bottom: 10px;
   padding-left: 5px;
+}
+
+.input{
+  font-size: 10px;
 }
