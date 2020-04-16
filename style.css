@@ -1266,3 +1266,20 @@ img {
 .input{
   font-size: 10px;
 }
+
+.btn, .btn2{
+  background: #61ba6d;
+      background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
+      background: linear-gradient(to right, #61ba6d, #83c331);
+
+  font-size: 15px;  
+  color: #232323;  
+}
+
+.btn2{
+  
+  color: white;
+  border-radius: 8px;
+  width: 120px;
+  height: 38px;
+}
