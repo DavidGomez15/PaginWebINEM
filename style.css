@@ -343,7 +343,11 @@ img {
       background-color: transparent; }
     .header-area .academy-main-menu .classy-navbar {
       background-color: #f5f7fa;
+      width: 1200px;
+      position: relative;
+      left: -50px;
       height: 85px;
+      
       padding: 0; }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .academy-main-menu .classy-navbar {
@@ -354,7 +358,8 @@ img {
           padding: 0;
           padding-left: 2em; } }
       .header-area .academy-main-menu .classy-navbar .classynav ul li a {
-        font-weight: 700;
+        font-weight: 600;
+
         text-transform: uppercase; }
         .header-area .academy-main-menu .classy-navbar .classynav ul li a:hover, .header-area .academy-main-menu .classy-navbar .classynav ul li a:focus {
           color: #69bc5f; }
@@ -519,7 +524,7 @@ img {
     visibility: visible; }
 
 /* Top Features Area CSS */
-.top-features-area {
+/* .top-features-area {
   position: relative;
   z-index: 50;
   margin-bottom: -60px; }
@@ -535,6 +540,9 @@ img {
     padding: 40px 15px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%); }
+    .derecha{
+      padding-right: 1px;
+    }
     .top-features-area .features-content .single-top-features {
       border-right: 2px solid #ffffff; }
       @media only screen and (max-width: 767px) {
@@ -569,7 +577,7 @@ img {
         .top-features-area .features-content .col-12:last-child .single-top-features {
           border: none;
           padding-bottom: 0;
-          margin-bottom: 0; } }
+          margin-bottom: 0; } } */
 
 /* Course Area CSS */
 .single-course-area .course-icon {
@@ -789,16 +797,32 @@ img {
   background: #61ba6d;
   background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
   background: linear-gradient(to right, #61ba6d, #83c331);
-  padding: 70px 0; }
+  padding: 20px 0;
+  width: 1100px;
+  top: -50px;
+  left: 9%;
+   }
+  
   .call-to-action-area .container{
     padding-left: 180px;
     
   }
   .call-to-action-area .container .img1 ,.img2 ,.img3 , .img4, .img5, .img6{
     padding-right: 100px;
+
   }
-  .call-to-action-area .cta-content h3 {
-    font-size: 30px;
+  
+  .call-to-action-area .container .img2{
+    width: 200px;
+  }
+
+  .call-to-action-area .container .img1{
+    width: 200px;
+  }
+
+  .call-to-action-area .cta-content h3  {
+    font-size: 10px;
+    
     color: #ffffff;
     margin-bottom: 0; }
     @media only screen and (min-width: 992px) and (max-width: 1199px) {
