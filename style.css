@@ -806,7 +806,8 @@ img {
   width: 1110px;
   top: -50px;
  
-  left: 120px;
+  margin-left: auto;
+  margin-right: auto;
   height: 180px;
    }
   
