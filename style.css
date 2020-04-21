@@ -833,12 +833,30 @@ img {
     
     color: #ffffff;
     margin-bottom: 0; }
-    @media only screen and (min-width: 992px) and (max-width: 1199px) {
-      .call-to-action-area .cta-content h3 {
-        font-size: 24px; } }
-    @media only screen and (min-width: 768px) and (max-width: 991px) {
-      .call-to-action-area .cta-content h3 {
-        font-size: 20px; } }
+  
+    @media only screen and (min-width: 350px) and (max-width: 700px) {
+      .call-to-action-area  {
+        height: 280px;
+        width: 100%; } }
+        @media only screen and (min-width: 370px) and (max-width: 700px) {
+          .call-to-action-area  {
+            height: 400px;
+            width: 100%; } }
+
+            @media only screen and (min-width: 390px) and (max-width: 700px) {
+              .call-to-action-area  {
+                height: 500px;
+                width: 100%; } }
+         
+     
+ 
+       @media only screen and (min-width: 350px) and (max-width: 800px) {
+        .call-to-action-area .container .img1 ,.img2 ,.img3 , .img4, .img5, .img6 {
+          width: 200px;
+          justify-content: space-between;
+          margin-left: auto;
+          margin-right: auto;
+         }
     @media only screen and (max-width: 767px) {
       .call-to-action-area .cta-content h3 {
         font-size: 24px;
