@@ -624,9 +624,14 @@ img {
 
   
 /* Testimonials Area CSS */
+.testimonials-area{
+  color: #000000;
+}
 .single-testimonial-area {
   position: relative;
-  z-index: 1; }
+  z-index: 1; 
+  
+}
   .single-testimonial-area .testimonial-thumb {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
@@ -645,22 +650,22 @@ img {
   .single-testimonial-area .testimonial-content h5 {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    color: #ffffff;
+    color: #000000;
     font-weight: 500;
     margin-bottom: 30px; }
   .single-testimonial-area .testimonial-content p {
-    color: #ffffff; }
+    color: #000000; }
   .single-testimonial-area .testimonial-content h6 {
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 0;
     font-weight: 500;
     font-size: 15px; }
-    .single-testimonial-area .testimonial-content h6 span {
-      color: #69bc5f; }
+    .single-testimonial-area .testimonial-content h5 span {
+      color: #000000; }
   .single-testimonial-area:hover .testimonial-thumb {
-    border-color: #69bc5f; }
+    border-color: #000000; }
   .single-testimonial-area:hover .testimonial-content h5 {
-    color: #69bc5f; }
+    color: #000000; }
 
 /* Top Popular Course Area CSS */
 .single-top-popular-course {
@@ -834,7 +839,7 @@ img {
     color: #ffffff;
     margin-bottom: 0; }
   
-    @media only screen and (min-width: 350px) and (max-width: 700px) {
+    /* @media only screen and (min-width: 350px) and (max-width: 700px) {
       .call-to-action-area  {
         height: 280px;
         width: 100%; } }
@@ -846,17 +851,17 @@ img {
             @media only screen and (min-width: 390px) and (max-width: 700px) {
               .call-to-action-area  {
                 height: 500px;
-                width: 100%; } }
+                width: 100%; } } */
          
      
- 
+/*  
        @media only screen and (min-width: 350px) and (max-width: 800px) {
         .call-to-action-area .container .img1 ,.img2 ,.img3 , .img4, .img5, .img6 {
           width: 200px;
           justify-content: space-between;
           margin-left: auto;
           margin-right: auto;
-         }
+         } */
     @media only screen and (max-width: 767px) {
       .call-to-action-area .cta-content h3 {
         font-size: 24px;
@@ -1368,4 +1373,12 @@ img {
 .cuerpo-img{
   width: 300px;
  
+}
+
+h3{
+  color: white;
+}
+
+.color{
+  color: black;
 }
