@@ -26,7 +26,7 @@ h5,
 h6 {
   color: #242424;
   line-height: 1.3;
-  font-weight: 700; }
+  font-weight: 600; }
 
 p {
   color: #606060;
@@ -944,6 +944,7 @@ img {
 .breadcumb-area {
   position: relative;
   z-index: 10;
+  
   width: 100%;
   height: 200px; }
   .breadcumb-area .bradcumbContent {
@@ -953,7 +954,7 @@ img {
     background: -webkit-linear-gradient(to right, #61ba6d, #83c331);
     background: linear-gradient(to right, #61ba6d, #83c331);
     position: absolute;
-    bottom: -60px;
+    bottom: -90px;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     left: 50%;
@@ -1356,18 +1357,20 @@ img {
 
 .txt1{
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 20px;
 }
 
 .cuerpo{
   text-align: center;
-  font-size: 17px;
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .cuerpo-largo{
   text-align: center;
-  font-size: 15px;
+  font-size: 13px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .cuerpo-img{
@@ -1381,4 +1384,120 @@ h3{
 
 .color{
   color: black;
+}
+
+.titulo{
+  text-align: left;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.comunicado{
+  font-size: 14px;
+  text-align: justify;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.titulo1{
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.texto{
+  font-size: 25px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.texto:hover{
+  font-size:30px;
+}
+
+.imagen-header{
+  float: right;
+  width: 420px;
+  position: relative;
+  top: -70px;
+  
+}
+
+.cuerpo-gigante{
+  font-size: 18px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: justify;
+}
+
+.titulo-simbolos{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+.escudo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15%;
+ 
+}
+
+.escudo1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  position: relative;
+  top: -60px;
+ 
+}
+
+.cuerpo-texto{
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align:justify;
+}
+
+.bandera{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+ 
+}
+
+.cuerpo-texto1{
+  text-align: center;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 20px;
+}
+
+.himno-video{
+  text-align: center;
+  
+ 
+  
+}
+.texto1{
+  font-size: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.texto1:hover{
+  font-size: 35px;
+}
+
+.imagen-header1{
+  float: right;
+  width: 680px;
+  position: relative;
+  top: -70px;
+  
+}
+
+#tabla{
+  padding-right: 10%;
+  padding-left: 20%;
+  margin: auto;
+}
+
+.articleBody{
+  font-size: 28px;
+  position: relative;
+  top: -80px;
 }
