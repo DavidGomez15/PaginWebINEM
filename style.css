@@ -1474,12 +1474,12 @@ h3{
   
 }
 .texto1{
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Nunito Sans', sans-serif;
 }
 
 .texto1:hover{
-  font-size: 35px;
+  font-size: 22px;
 }
 
 .imagen-header1{
@@ -1487,6 +1487,22 @@ h3{
   width: 680px;
   position: relative;
   top: -70px;
+  
+}
+
+.imagen-header2{
+  float: right;
+  width: 300px;
+  position: relative;
+  top: -70px;
+  
+}
+
+.imagen-header3{
+  float: right;
+  width: 300px;
+  position: relative;
+  top: -100px;
   
 }
 
@@ -1501,3 +1517,37 @@ h3{
   position: relative;
   top: -80px;
 }
+
+.articleBodymain{
+  position: relative;
+  top: -1050px;
+}
+
+.cuerpo-titulo{
+  font-size: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+.cuerpo-largo-calidad{
+  font-size: 17px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+}
+.biblioteca{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.cuerpo-titulo1{
+  font-size: 30px;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  
+}
+
+
