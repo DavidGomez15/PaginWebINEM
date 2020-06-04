@@ -1698,6 +1698,19 @@ h3{
   }
 
 
-  
+  .enviar{
+    border-top: 2px rgb(0, 0, 0) solid ;
+    border-left: 2px rgb(0, 0, 0) solid;
+    border-right: 2px rgb(0, 0, 0) solid;
+    width: 200px;
+    border-radius: 10px ;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .enviar:hover{
+    background: black;
+    color: white;
+  }
 
 
