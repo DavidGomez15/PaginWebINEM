@@ -1464,6 +1464,7 @@ h3{
 }
 .escudo{
   display: block;
+
   margin-left: auto;
   margin-right: auto;
   width: 15%;
@@ -1662,5 +1663,36 @@ h3{
     font-size: 28px;
     text-align: center;
   }  
+
+  .form-main{
+    width: 100%;
+    text-align: justify;
+    position: relative;
+    top: -35px;
+  }
+
+  .formulario-p{
+    font-size: 20px;
+    position: relative;
+    color: black;
+    font-family: 'Nunito Sans', sans-serif;
+    top: -50px
+  }
+
+  input{
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 17px;
+    text-align: center;
+
+  }
+
+  .nota{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
 
 
