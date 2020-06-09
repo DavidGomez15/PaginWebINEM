@@ -190,7 +190,7 @@ img {
     right: 0;
     bottom: 0;
     margin: auto;
-    animation: spin 2s infinite linear; }
+    animation: spin 1s infinite linear; }
 @-webkit-keyframes spin {
   100% {
     -webkit-transform: rotate(360deg);
@@ -1706,11 +1706,27 @@ h3{
     border-radius: 10px ;
     height: 50px;
     cursor: pointer;
+    text-align: center;
   }
 
   .enviar:hover{
     background: black;
     color: white;
   }
+
+  .container-404{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+ 
+  
+    
+    
+  }
+
+  
 
 
